@@ -1,0 +1,133 @@
+
+  .maindiv {
+    max-width: 400px;
+    height:auto;
+    padding: 20px;
+    background: #fff; 
+  }
+  .maindiv h2{
+    font-weight: bold;
+  margin-top: 30px;
+  margin-left: 20px;
+
+  }
+ 
+  .signbutton{
+    padding:5px;
+    width: 90px;
+    margin-left: 60px;
+    margin-top: 120px;
+    background-color:navy; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .mainblock{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-top: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  }
+    
+  .mainblock img{
+    height:500px;
+    display: block; 
+    padding: 20px;
+    padding-right:20px;
+    width: 100%; 
+  }
+  form {
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column; 
+  }
+  label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-right: 30px;
+  }
+  
+  input {
+    margin-bottom: 15px;
+    width:300px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+    .loginbuton {
+    padding: 10px 15px;
+    background-color:green;
+    color: #fff;
+    border: none;
+    width:220px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .signupblock{
+    max-width: 400px;
+    margin-top: 60px;
+    padding: 20px;
+    height:400px;   
+    margin-left:205px ;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+  .signup h1{
+    text-align: center;
+  }
+  .error{
+   color:red;
+   text-decoration: solid;
+
+  }
+  .signup{
+    margin-bottom: 1%;
+    
+  }
+  .hidden{
+    visibility: hidden;
+  }
+  .signupblock input{
+    width: 350px;
+  }
+  .buttondisp{
+    vertical-align: top;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+  }
+  .buttondisp Link{
+    margin-top: 20px;
+  }
+  .buttondisp p{
+   margin-left: 40px;
+   font-size: 16px;
+   font-style: normal;
+  }
+  .signuplink{
+        
+    margin-left: 10px;
+    text-decoration: underline;
+    font-style: italic;
+    
+  }
+  .sidnimg h2{
+    height: 30px;
+    margin-left: 100px;
+    text-align: center;
+    display: inline;
+  }
+  .sidnimg {
+    display: flex;
+    flex-direction: row;
+  }

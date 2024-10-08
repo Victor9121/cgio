@@ -1,0 +1,32 @@
+.image{
+    height:300px;
+    width:auto;
+    padding:30px;
+}
+.imagediv{ 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+
+}
+.main{
+    margin-top: 50px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.place{
+    color:white;
+    background-color:rgb(11, 152, 135);
+    border-radius: 9%;
+}
+.descp{
+    margin-left: 30px;
+    text-align: left;
+}
+.container{
+    margin-bottom: 3%;
+}
+.container p{
+    font-size:16px;
+    font-style: normal;
+}
